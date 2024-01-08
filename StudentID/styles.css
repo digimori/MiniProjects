@@ -40,9 +40,48 @@
   padding: 0;
 }
 
+.card__container {
+  margin: 20px auto;
+  padding: 12px 8px;
+  background-color: aliceblue;
+  border-radius: 8px;
+}
+
+.card {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.card-body {
+  text-align: left;
+}
+
+p.card-text {
+  font-weight: 700;
+}
+
+.user-card {
+  background: linear-gradient(#92bca6, #a2ccb6);
+}
+
+.user-photo {
+  font-size: 7em;
+}
+
+button#resetCard {
+  margin-top: 10px;
+}
+
+#cardName,
+#cardCollege,
+#cardLocation {
+  font-weight: 500;
+  font-size: 0.75em;
+}
+
 /* MEDIA QUERY THE BORDER */
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1199px) {
   .generator__content-form {
     border: none;
   }
